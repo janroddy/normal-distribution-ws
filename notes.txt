@@ -1,0 +1,52 @@
+Progress report: =========
+-prototype coded about half the worksheet 
+-first 3 questions for student version prototype
+	~started to think about problems with format, and instructions to include 
+
+
+Questions for Yolanda: =======
+
+What do you think about the student version prototype? 
+Should I continue to put time into considering Jupyter notebooks as development environment? 
+
+
+Questions for Teacher: ======
+It would be helpful to have any extra context for the lesson, or what the learning outcomes/ goals are for the stats worksheet 
+~even the chapter of the textbook that corresponds to the material 
+
+
+
+
+
+
+
+STATS DEFIINTIONS : =======
+
+
+Normalcdf() is the normal (Gaussian) cumulative distribution function on the TI 83/TI 84 calculator. If a random variable is normally distributed, you can use the normalcdf command to find the probability that the variable will fall into a certain interval that you supply.
+~calculates the probability that the variable will fall into the interval you supply as a parameter (in our case z)
+
+Normalpdf() is the probability density function 
+~
+
+PYTHON NOTES: =======
+
+Plotting the normal dist. curve 
+	#x = np.linspace(start of interval = -5, end of interval = 5, num of items to generate within the range = 200)
+	 ~using 200 because the fill function is more precise if there are more numbers generated per interval
+
+	#y = norm.pdf(x, mean, std_dev) 
+	`~pdf(x, loc=0, scale=1)
+
+	Shading inside the curve 
+Distributions
+
+norm.ppf calculate the z score with Percent Point Function which is the inverse of normalCDF function
+
+
+
+
+Concerns about Jupyter notebook: ================
+1.The students will need to be able to revert cells back to original state if they mess them up somehow (such as delete part of the code on accident) 
+2. We will need to teach them how to use the environment before they can do the worksheet 
+3. 
